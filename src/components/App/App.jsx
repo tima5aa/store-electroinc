@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 
-
 import SideBar from '../SideBar/SideBar'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
@@ -24,7 +23,7 @@ useEffect(() => {
       <Header />
 
     <div className='container'>
-      <SideBar />
+      <SideBar  />
       <AppRoutes />
     </div>
 

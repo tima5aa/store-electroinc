@@ -4,8 +4,11 @@
   height: 423px;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
-
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
 .title {
   font-weight: 600;
   line-height: 20px;
